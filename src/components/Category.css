@@ -1,0 +1,21 @@
+h1,
+h2,
+h3,
+p,
+li,
+ul {
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+svg {
+  margin-top: 0.5em;
+  color: white;
+  font-size: 5em;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+}

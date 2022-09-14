@@ -1,0 +1,47 @@
+h1,
+h2,
+h3 {
+  color: white;
+  /* padding-top: 1rem; */
+  padding-bottom: 0%;
+  text-decoration: none;
+}
+
+p {
+  font-size: 2em;
+}
+
+.react-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  min-width: 200%;
+  min-height: 200%;
+}
+
+.ten {
+  color: white;
+}
+
+.ten:link {
+  color: #ff154d;
+}
+
+.ten:visited {
+  color: #ff154d;
+  box-shadow: #7a0a24 2px, 2px;
+}
+
+.ten:focus {
+  color: #2cff15;
+}
+
+.ten:hover {
+  color: #ff154d;
+}
+
+.ten:active {
+  color: #2cff15;
+}

@@ -1,0 +1,11 @@
+button.button-footer.btn.btn-primary {
+  cursor: pointer;
+  background-color: #ff154d;
+  color: white;
+}
+
+button.button-footer.btn.btn-primary:hover {
+  cursor: grab;
+  background-color: #2cff15;
+  color: white;
+}

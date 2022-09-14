@@ -1,0 +1,84 @@
+.modalBody {
+	background: linear-gradient(-45deg, #5f72be, #9921e8  );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	color: white;
+/* 	border-right: 3px solid white;
+	border-left: 3px solid white; */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+p {
+    text-align: center;
+}
+
+.modalHeader {
+	background: linear-gradient(45deg, #5f72be, #9921e8 );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+/* 	border: 3px solid white;
+	 */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.modalTitle {
+    color: rgb(255, 255, 255);
+ 	margin-left: 5.5em;
+}
+
+.modalFooter {
+	background: linear-gradient(45deg, #5f72be, #9921e8 );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	color: white;
+/* 	border: 3px solid white; */
+	justify-content: center !important;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.modalBtn{
+    color: #ffffff;
+    background-color: #ff4040 !important;
+    border-style: none !important; 
+    border-radius: 50% !important;
+	height: 3rem;
+	width: 3rem;
+	font-size: 20px !important;
+	position: absolute;
+	bottom: 15px;
+	left: 16px;
+	border: 3px solid white !important;	
+}

@@ -1,0 +1,41 @@
+header {
+  padding-top: 0.5rem;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 0%;
+  text-decoration: none;
+}
+
+h3,
+easy:link {
+  color: #ff154d;
+}
+
+.easy:visited {
+  color: #ff154d;
+  box-shadow: #7a0a24 2px, 2px;
+}
+.easy:focus {
+  color: #2cff15;
+}
+
+.easy:hover {
+  color: #ff154d;
+}
+
+.easy:active {
+  color: #2cff15;
+}
+
+/* link,visited,focus,hover,active.  */

@@ -1,0 +1,21 @@
+header {
+  padding-top: 0.8rem;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  text-shadow: 10px 10px rgba(89, 14, 142, 0.56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

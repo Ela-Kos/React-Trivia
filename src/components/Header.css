@@ -1,0 +1,14 @@
+header {
+    padding-top: 10rem;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  h1{
+    text-align: center;
+    color: white;
+    padding-top: 1rem; 
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.75);
+  }

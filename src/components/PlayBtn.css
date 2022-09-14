@@ -1,0 +1,13 @@
+.playBtn {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    font-size: 30px;
+    border-radius:10px;
+    position: absolute;
+    top: 56%;
+    left: 47%;
+    margin-top: 2rem;
+    text-align: center;
+    border: 3px solid white;
+}
