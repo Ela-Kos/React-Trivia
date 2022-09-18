@@ -7,9 +7,12 @@ const Questions = () => {
   return (
     <div>
       <Button className="button">QUESTIONS</Button>
-      <p className="five">5</p>
-      <p className="seven">7</p>
-      <p className="ten">10</p>
+        <div className="centred-grid-container">
+          <p className="centred-grid-item five">5</p>
+          <p className="centred-grid-item seven">7</p>
+          <p className="centred-grid-item ten">10</p>
+          <p className="centred-grid-item ten">10</p>
+        </div>
     </div>
   );
 };
