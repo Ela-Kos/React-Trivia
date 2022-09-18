@@ -13,6 +13,17 @@
   margin-bottom: 0%;
 }
 
+.basic-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.basic-grid-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
 svg {
   display: flex;
   flex-direction: row;

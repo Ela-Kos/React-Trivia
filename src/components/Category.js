@@ -6,12 +6,14 @@ import "./Category.css";
 
 const Category = () => {
   return (
-    <div>
+      <div className="category-wrapper">
       <Button className="button">CATEGORY</Button>
-      <TbBrandHtml5 />
-      <TbBrandCss3 />
-      <TbBrandJavascript />
-    </div>
+        <div className="basic-grid">
+            <div className="basic-grid-item"><TbBrandHtml5 /></div>
+            <div className="basic-grid-item"><TbBrandCss3 /></div>
+            <div className="basic-grid-item"><TbBrandJavascript /></div>
+        </div>
+      </div>
   );
 };
 
