@@ -8,10 +8,10 @@ const Category = () => {
   return (
       <div className="category-wrapper">
       <Button className="button">CATEGORY</Button>
-        <div className="basic-grid">
-            <div className="basic-grid-item"><TbBrandHtml5 /></div>
-            <div className="basic-grid-item"><TbBrandCss3 /></div>
-            <div className="basic-grid-item"><TbBrandJavascript /></div>
+        <div className="centred-grid-container">
+            <div className="centred-grid-item"><TbBrandHtml5 /></div>
+            <div className="centred-grid-item"><TbBrandCss3 /></div>
+            <div className="centred-grid-item"><TbBrandJavascript /></div>
         </div>
       </div>
   );
